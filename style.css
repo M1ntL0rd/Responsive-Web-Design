@@ -27,6 +27,8 @@ article{
 }
 .box-model > p{
     color: var(--color-secondary);
+    font-size: large;
+    font-weight: 400;
 }
 .outer-layer{
     height: 250px;
