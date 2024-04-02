@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX MODEL</title>
+</head>
+<body>
+    <h1>BOX MODEL DRAWING</h1>
+    <article>
+        <div class="box-model box-model--1">
+            <p>Without box-sizing*</p>
+            <div class="outer-layer">
+                Margin
+                <div class="mid-layer">
+                    <div class="inner-layer">
+                        <div class="content-arrow horizontal"></div>
+                        <div class="content-arrow vertical"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="size-text"><p class="text">**Without the box-sizing declaration set to border-box the box-model will sum margin, padding, width and height </p></div>
+        </div>
+        <div class="box-model box-model--2">
+            <p>With box-sizing</p>
+            <div class="outer-layer">
+                Margin
+                <div class="mid-layer">
+                    <div class="inner-layer">
+                        <div class="content-arrow horizontal"></div>
+                        <div class="content-arrow vertical"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="size-text"><p class="text">**Here we have the box-sizing set to border-box this will ignore the margin and the padding but make use of the width and height</p></div>
+        </div>
+    </article>
+</body>
+</html>
+
+<!-- CODE BY MINTLORD -->
