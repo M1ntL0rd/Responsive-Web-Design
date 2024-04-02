@@ -25,6 +25,9 @@ article{
 .box-model{
     text-align: center;
 }
+.box-model > p{
+    color: var(--color-secondary);
+}
 .outer-layer{
     height: 250px;
     width: 250px;
